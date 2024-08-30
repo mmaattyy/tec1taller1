@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">  
+    <title>Calificar</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="css/logo.jpg" alt="Icono" class="icono-circular">
+            <h2 class="logo">Rank</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="peliculas.html">Peliculas</a>
+                <a href="series.html">Series</a>
+                <a href="calificar.html">Calificar</a>
+                <a href="top.html">Top</a>
+            </nav>
+        </div>
+    <hr class="separador">
+    </header>
+        <div class="formulario">
+            <h3>Califica tu Película o Serie Favorita</h3>
+            <br>
+            <label for="correo">Ingrese su Correo:</label>
+            <br>
+            <input class="opciones" type="text" name="correo" id="correo" placeholder="Example@example.com" >
+            <br>
+            <label for="tipo"> Seleccione la Categoria que va a Valorar</label>
+            <br>
+            <select class="opciones"name="tipo">
+                <option value="Pelicula">Pelicula</option>
+
+                <option value="Serie">Serie</option>
+            </select>
+            <br>
+            <label for="nombre">Ingrese el Titulo:</label>
+            <input class="opciones" type="text" name="nombre" id="nombre" placeholder="" >
+             <label for="valoracion"> Seleccione su valoracion</label>
+             <br>
+            <select class="opciones" name="valoracion">
+                <option value="1star">1</option>
+                <option value="2star">2</option>
+                <option value="3star">3</option>
+                <option value="4star">4</option>
+                <option value="5star">5</option>
+            </select>
+            <label for="comentario">Ingrese su comentario</label>
+            <input class="opciones" type="text" name="comentario" id="comentario" placeholder="Opcional">
+            <input class="boton" type="submit" name="enviar"  value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
